@@ -1,0 +1,76 @@
+/*CSS Document*/
+
+/*
+COLORS:
+    Blue:     #0D3B66
+    Tan:      #FAF0CA
+    Gold:     #F4D35E
+*/
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FAF0CA;
+    color: #0D3B66;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 5em;
+    font-family: "Impact"
+}
+
+.whatever {
+    font-size: .35em;
+    font-family: monospace;
+}
+
+table {
+    display: none;
+}
+
+header {
+    background: linear-gradient(to top, #FAF0CA, #ffe26e);
+}
+
+nav {
+    color: #F4D35E;
+    background-color: #0D3B66;
+    text-decoration: none;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 3%;
+}
+
+nav a {
+    color: #F4D35E;
+    text-decoration: none;
+    transition: all .3s;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: #000099;
+    font-size: 1.4em;
+    text-decoration: none;
+}
