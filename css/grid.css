@@ -1,0 +1,31 @@
+/*CSS Document*/
+
+@supports (grid-area: auto) {
+    .services {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas: "sec1 sec2 sec3";
+        justify-content: center;
+    }
+    #ssection1 {
+        grid-area: sec1;
+        font-size: .7em;
+    }
+    #ssection2 {
+        grid-area: sec2;
+        font-size: .7em;
+    }
+    #ssection3 {
+        grid-area: sec3;
+        font-size: .7em;
+    }
+    #ssection1 button, #ssection2 button, #ssection3 button {
+        font-size: 1em;
+        border-radius: 15px;
+    }
+    #ssection1 button:hover, #ssection2 button:hover, #ssection3 button:hover {
+        font-size: 1.1em;
+    }
+
+}
