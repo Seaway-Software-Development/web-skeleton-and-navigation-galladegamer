@@ -1,0 +1,300 @@
+/*CSS Document*/
+
+/*
+COLORS:
+    Blue:     #0D3B66
+    Tan:      #FAF0CA
+    Gold:     #F4D35E
+*/
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FAF0CA;
+    color: #0D3B66;
+    background-image: linear-gradient(#F4D35ECC, #F4D35ECC), url(../images/ezgif.com-rotate.gif);
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 13em;
+    font-weight: bold;
+    font-family: "Impact";
+    padding-top: 10%;
+    -webkit-text-stroke: 2px #000000;
+}
+
+.whatever {
+    font-size: .1em;
+    font-weight: bold;
+    font-family: monospace;
+    color: #000000;
+    -webkit-text-stroke: 0 #000000;
+    animation: float 1s infinite alternate ease-in-out, rotat 1.3s infinite alternate ease-in-out;
+}
+
+@keyframes float {
+    0% {transform: translate(0, -15px); color: #000000;}
+    100% {transform: translate(0, 15px); color: #000099;}
+}
+
+@keyframes rotat {
+    0% {rotate: 5deg;}
+    100% {rotate: -5deg;}
+}
+
+table {
+    display: none;
+}
+
+header {
+    background-image: url(../images/LimpHauntingIndianjackal-size_restricted.gif), url(../images/CLIPLY_372109170_FREE_FIREWORKS_400.gif), url(../images/1061438_66c0e.gif), url(../images/41e74b0f91b7cb7df6b73e34ae8528a4.gif), url(../images/3ab35e9632c5b906f1774272bd260972.gif), url(../images/0024b92df56e60d2706ed908b31ad870.gif), url(../images/output.gif), linear-gradient(to bottom, #F4D35E 90%, transparent);
+    background-size: contain;
+    min-height: 800px;
+}
+
+nav {
+    color: #F4D35E;
+    background-color: #0D3B66;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    text-align: center;
+    padding: .5% 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 3%;
+}
+
+nav a {
+    color: #F4D35E;
+    text-decoration: none;
+    transition: all .3s;
+    font-size: 2.4em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FAF0CA;
+    font-size: 2.7em;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section, .ssection {
+    padding: 150px 20%;
+}
+
+#section1 {
+    background-color: #FAF0CA;
+    background: linear-gradient(to bottom, transparent, #FAF0CA 3%, #FAF0CA 97%, #F4D35E);
+    color: #000000;
+}
+#section2 {
+    background-color: #F4D35E;
+    background: linear-gradient(to bottom, #F4D35E 97%, #0D3B66);
+    color: #000000;
+}
+#section3 {
+    background-color: #0D3B66;
+    background: linear-gradient(to bottom, #0D3B66 97%, #FFFFFF);
+    color: #FFFFFF;
+}
+#ssection1 {
+    background-color: #FAF0CA;
+    background: linear-gradient(to right, transparent, #FAF0CA 3%, #FAF0CA 97%, #F4D35E);
+    color: #000000;
+}
+#ssection2 {
+    background-color: #F4D35E;
+    background: linear-gradient(to right, #F4D35E 97%, #0D3B66);
+    color: #000000;
+}
+#ssection3 {
+    background-color: #0D3B66;
+    background: linear-gradient(to right, #0D3B66 97%, transparent);
+    color: #FFFFFF;
+}
+#sssection1 {
+    max-height: 50px;
+    background-color: #FAF0CA;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#sssection2 {
+    max-height: 50px;
+    background-color: #F4D35E;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#sssection3 {
+    max-height: 50px;
+    background-color: #0D3B66;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#sssection4 {
+    max-height: 50px;
+    background-color: #0D3B66;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#sssection5 {
+    max-height: 50px;
+    background-color: #FAF0CA;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#sssection6 {
+    max-height: 50px;
+    background-color: #F4D35E;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#section4 {
+    background-color: #0D3B66;
+    background: linear-gradient(to bottom, transparent, #FAF0CA 3%, #FAF0CA 97%, #FFFFFF);
+}
+
+.section p {
+    font-size: 2.5em;
+    justify-content: inner-word;
+    text-align: inner-word;
+}
+
+.section .image {
+    width: 80%;
+}
+.section .image {
+    text-align: center;
+}
+
+.ssection p {
+    font-size: 1.5em;
+    justify-content: inner-word;
+    text-align: inner-word;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    background-color: #FFFFFF;
+    padding: 2% 4%;
+    border-radius: 20px;
+    color: #0D3B66;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all .3s;
+    font-size: .5em;
+}
+
+button:hover {
+    color: #000000;
+    font-size: .6em;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    min-height: 250px;
+    clear: both;
+}
+
+input {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.button {
+    color: #FAF0CA;
+    background-color: #0D3B66;
+    padding: 0.5% 1%;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: all .3s;
+    font-size: 1em;
+    border: 0;
+}
+
+#submit:hover {
+    background-color: #99FF99;
+    color: #009900;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 5px #00990099;
+}
+
+#reset:hover {
+    background-color: #FF9999;
+    color: #990000;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 5px #99000099;
+}
+
+#prof1, #prof3 {
+    width: 50%;
+    float: left;
+}
+#prof2 {
+    width: 50%;
+    float: right;
+}
+
+.name {
+    text-align: left;
+}
+
+.title {
+    text-align: right;
+}
+
+.hidden {
+    color: transparent;
+}
